@@ -1,0 +1,91 @@
+% ============================================================
+% GERMAN RESUME SEED — ATS-Optimized
+% ============================================================
+%
+% !! DIESE DATEI NICHT DIREKT BEARBEITEN !!
+%
+% Dies ist eine schreibgeschützte Vorlage.
+% Zum Erstellen eines Lebenslaufs diese Datei nach resumes/resume.tex
+% kopieren und NUR die Inhaltsplatzhalter in der Kopie ändern.
+%
+% STRUKTURREGELN (nicht ändern):
+%   - Pakete, Ränder, Abschnittsformatierung beibehalten.
+%   - Keine Tabellen, keine Spalten, keine Grafiken, keine Farben.
+%   - \textbf für Hervorhebung, \hfill für Datumsausrichtung.
+%   - Reihenfolge: Profil → Kompetenzen → Erfahrung → Projekte → Ausbildung.
+% ============================================================
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[ngerman]{babel}
+\usepackage[top=1.5cm, bottom=1.5cm, left=2cm, right=2cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\pagestyle{empty}
+
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+\setlist[itemize]{nosep, left=0pt .. 1.5em, label=\textbullet}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+% ===== KOPFZEILE =====
+\begin{center}
+   {\LARGE\bfseries Candidate Name} \\[4pt]
+   Beispielstadt, Deutschland \enspace$\vert$\enspace
+   \href{mailto:candidate@example.com}{candidate@example.com} \enspace$\vert$\enspace
+   +00\,000\,0000000 \\[2pt]
+   \href{https://linkedin.com/in/candidate}{linkedin.com/in/candidate} \enspace$\vert$\enspace
+   \href{https://github.com/candidate}{github.com/candidate}
+\end{center}
+
+% ===== PROFIL — nur Text ersetzen =====
+\section{Profil}
+
+Software Engineer mit über vier Jahren Erfahrung in der Entwicklung und Modernisierung komplexer Webanwendungen. Starker Fokus auf Angular, TypeScript und Node.js, saubere Architekturen und produktionsreife Lösungen. Gewohnt, Verantwortung zu übernehmen und Features von der Idee bis zum Rollout umzusetzen.
+
+% ===== TECHNISCHE KOMPETENZEN — nur Inhalte ersetzen =====
+\section{Technische Kompetenzen}
+
+\textbf{Frontend:} Angular, TypeScript, JavaScript (ES6+), RxJS, Angular Material, HTML5, CSS3, SCSS, Tailwind CSS \\
+\textbf{Backend:} Node.js, Express, REST-APIs \\
+\textbf{Datenbanken:} PostgreSQL, MongoDB \\
+\textbf{Tooling \& Methoden:} Git, GitHub, CI/CD (GitHub Actions), Docker, Agile Entwicklung, Figma \\
+\textbf{Sprachen:} Französisch (Muttersprache), Deutsch (C1), Englisch (C1)
+
+% ===== BERUFSERFAHRUNG — nur Inhalte ersetzen =====
+\section{Berufserfahrung}
+
+\textbf{Stellentitel} \hfill \textbf{Start -- Ende} \\
+\textit{Firmenname} \hfill \textit{Stadt, Land}
+\begin{itemize}
+   \item Leistung mit messbarem Ergebnis.
+   \item Weitere Leistung mit technischer Tiefe und Eigenverantwortung.
+\end{itemize}
+
+% ===== AUSGEWÄHLTE PROJEKTE — nur Inhalte ersetzen =====
+\section{Ausgewählte Projekte}
+
+\textbf{Projektname} \\
+\textit{Kontext oder Organisation}
+\begin{itemize}
+   \item Was gebaut wurde und welche Wirkung es hatte.
+\end{itemize}
+
+% ===== AUSBILDUNG — nur Inhalte ersetzen =====
+\section{Ausbildung}
+
+\textbf{Abschluss} \hfill \textbf{Start -- Ende} \\
+\textit{Universität} \hfill \textit{Stadt, Land}
+\begin{itemize}
+   \item Relevante Studieninhalte, Abschlussarbeit oder akademische Leistung.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,27 @@
+{
+  "latex-workshop.latex.outDir": "%DIR%",
+  "files.exclude": {
+    "**/*.aux": true,
+    "**/*.log": true,
+    "**/*.out": true,
+    "**/*.fls": true,
+    "**/*.fdb_latexmk": true,
+    "**/*.synctex.gz": true,
+    "**/*.toc": true,
+    "**/*.bbl": true,
+    "**/*.blg": true,
+    "**/*.nav": true,
+    "**/*.snm": true,
+    "**/*.vrb": true,
+    "**/*.xdv": true
+  },
+  "search.exclude": {
+    "**/*.aux": true,
+    "**/*.log": true,
+    "**/*.out": true,
+    "**/*.fls": true,
+    "**/*.fdb_latexmk": true,
+    "**/*.synctex.gz": true
+  },
+  "python-envs.pythonProjects": []
+}

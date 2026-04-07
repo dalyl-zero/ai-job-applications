@@ -1,0 +1,55 @@
+# ==========================
+# LaTeX Build Artifacts
+# ==========================
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.blg
+*.bbl
+
+# Merged output
+misc/
+
+# Extracted reference text (cached)
+references/extracted/*.txt
+
+# ==========================
+# Generated PDFs (except archives)
+# ==========================
+resumes/*.pdf
+cover_letters/cover_letter.pdf
+resumes/archive/*.pdf
+cover_letters/archive/*.pdf
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# ==========================
+# OS
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Temporary files
+# ==========================
+*.tmp
+*.swp
+*.bak
