@@ -85,7 +85,7 @@ pip install -r requirements.txt
 
 1. Fill [profile.md](profile.md).
 2. Paste the target role into [job_description.md](job_description.md).
-3. Run the preflight check:
+3. Preflight validation is required and is usually run automatically by the AI agent. If needed, run it manually:
 
 ```bash
 python scripts/validate_inputs.py
