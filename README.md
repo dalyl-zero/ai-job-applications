@@ -131,28 +131,6 @@ python scripts/archive_application.py [application_id]
 python scripts/archive_application.py --use-descriptive-name --company "Company" --role "Role"
 ```
 
-## Tracker Format
-
-[tracker.md](tracker.md) uses the following layout:
-
-- Job Title
-- Company
-- Applied Date
-- Status
-- Role Type
-- Notes
-
-Recommended status values:
-
-- Applied
-- Phone Screen
-- Interview
-- Take Home
-- Offer
-- Rejected
-- Withdrawn
-- Offer Declined
-
 ## Troubleshooting
 
 Missing dependency:
